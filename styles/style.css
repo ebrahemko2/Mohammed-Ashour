@@ -130,11 +130,12 @@ body {
     flex-wrap: wrap;
     flex: 1 1;
     justify-content: center;
-    align-content: center;
+    align-content: space-between;
+    overflow: scroll;
 }
  .gallery .picture{
-    width: 25%;
-    height: 33%;
+    width: 33.333%;
+    height: 70%;
     margin: 0;
  }
 
